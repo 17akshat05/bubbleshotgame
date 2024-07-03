@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Shooting Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="credit" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 18px; color: rgba(255, 255, 255, 0.5); text-align: center;">MADE BY AKSHAT JAIN</div>
+    <div id="game-container">
+        <div id="menu">
+            <h1>Bubble Shooting Game</h1>
+            <button id="play-button">Play</button>
+            <button id="highscore-button">High Score</button>
+        </div>
+        <div id="game" class="hidden">
+            <div id="score">Score: 0</div>
+            <div id="lives">Lives: 5</div>
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
